@@ -1,0 +1,18 @@
+
+
+To add a file:
+
+	create file in `elka_nn` folder
+	add file to `CMakeLists.txt` with the other files
+
+
+
+To build:
+
+	run make eagle_default from `Firmware` directory
+
+To run it:
+
+	you need a snapdragon
+
+

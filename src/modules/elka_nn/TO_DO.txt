@@ -1,0 +1,16 @@
+TO DO
+
+look into simulation eric sent you on fb
+	dont have to setup snap dragon if you can get this working
+
+	install ros
+	verify ros
+	install simulation
+	verify simulation
+	set up simulated drone in simulation with flight path
+	maybe even with the flight controller we're using
+	connect simulation to genann to get data into genann
+	import data on time steps such that the data is fed
+	from the simulation into genann in real time
+	
+

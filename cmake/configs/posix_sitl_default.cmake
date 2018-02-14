@@ -84,17 +84,17 @@ set(config_module_list
 	# Estimation modules
 	#
 	modules/attitude_estimator_q
-	modules/ekf2
+	# modules/ekf2
 	modules/local_position_estimator
 	modules/position_estimator_inav
 
 	#
 	# Vehicle Control
 	#
-	modules/fw_att_control
-	modules/fw_pos_control_l1
-	modules/gnd_att_control
-	modules/gnd_pos_control
+	#modules/fw_att_control
+	#modules/fw_pos_control_l1
+	#modules/gnd_att_control
+	#modules/gnd_pos_control
 	modules/mc_att_control
 	modules/mc_pos_control
 	modules/vtol_att_control
@@ -119,7 +119,7 @@ set(config_module_list
 	lib/controllib
 	lib/conversion
 	lib/DriverFramework/framework
-	lib/ecl
+	#lib/ecl
 	lib/geo
 	lib/geo_lookup
 	lib/launchdetection
