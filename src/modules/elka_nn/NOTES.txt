@@ -1,0 +1,11 @@
+NOTES:
+
+how to compile a mother fucking c program
+
+gcc a.c - o a
+./a
+
+or 
+
+make
+./example1
