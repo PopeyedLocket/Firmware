@@ -1,5 +1,5 @@
 px4_add_module(
-	ODULE modules__elka_nn
+	MODULE modules__elka_nn
 	MAIN nn
 	STACK_MAIN 4200
 	STACK_MAX 3800

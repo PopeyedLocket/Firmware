@@ -2,7 +2,7 @@ CCFLAGS = -Wall -Wshadow -O2 -g
 LDLIBS = -lm
 
 
-all: test example1 example2 example3 example4 example5 flight_path_predictor1
+all: test example1 example2 example3 example4 example5 nn
 
 
 test: test.o genann.o
@@ -20,7 +20,7 @@ example4: example4.o genann.o
 
 example5: example5.o genann.o
 
-flight_path_predictor1: flight_path_predictor1.o genann.o
+nn: nn.o genann.o
 
 clean:
 	$(RM) *.o
